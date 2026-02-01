@@ -1,0 +1,6 @@
+@esyasoft.mobility.CHRGUP.service.test_HostAddress = http://localhost:5056
+
+GET {{esyasoft.mobility.CHRGUP.service.test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

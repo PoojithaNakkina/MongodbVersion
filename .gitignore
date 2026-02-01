@@ -1,0 +1,111 @@
+############################################
+# .NET / Visual Studio
+############################################
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+*.code-workspace
+
+############################################
+# .NET Core / ASP.NET Core
+############################################
+
+# Runtime files
+*.dll
+*.exe
+*.pdb
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+############################################
+# Environment & Secrets
+############################################
+
+.env
+.env.*
+secrets.json
+
+# User secrets (Windows)
+**/secrets.json
+
+############################################
+# Logs & diagnostics
+############################################
+
+*.log
+logs/
+diagnostics/
+
+############################################
+# EF Core
+############################################
+
+# Ignore generated migration snapshots only if needed
+# (Comment this out if you want migrations in git)
+# **/Migrations/*.Designer.cs
+# **/Migrations/*.resx
+
+############################################
+# OS-specific
+############################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+############################################
+# Testing
+############################################
+
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+############################################
+# Docker
+############################################
+
+docker-compose.override.yml
+
+############################################
+# Node / frontend (if added later)
+############################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################################
+# Misc
+############################################
+
+*.tmp
+*.bak
+*.swp
+*.orig

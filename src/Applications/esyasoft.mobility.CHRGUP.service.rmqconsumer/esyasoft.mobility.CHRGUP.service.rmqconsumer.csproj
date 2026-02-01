@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-esyasoft.mobility.CHRGUP.service.rmqconsumer-51ea4887-971f-45ab-8269-f54f738f6f65</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+    <PackageReference Include="Nanoid" Version="3.1.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\esyasoft.mobility.CHRGUP.service.core\esyasoft.mobility.CHRGUP.service.core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\esyasoft.mobility.CHRGUP.service.persistence\esyasoft.mobility.CHRGUP.service.persistence.csproj" />
+  </ItemGroup>
+</Project>

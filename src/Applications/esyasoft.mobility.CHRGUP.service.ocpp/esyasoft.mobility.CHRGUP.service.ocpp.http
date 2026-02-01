@@ -1,0 +1,6 @@
+@esyasoft.mobility.CHRGUP.service.ocpp_HostAddress = http://localhost:5193
+
+GET {{esyasoft.mobility.CHRGUP.service.ocpp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
